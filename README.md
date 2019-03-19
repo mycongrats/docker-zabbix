@@ -2,11 +2,11 @@
 docker pull mycongrats/zabbix
 #### 启动容器
 docker run --name zabbix-server \\  
-    -e PHP_TZ="Asia/Shanghai" \\  
-    -v /your/mysql/lib:/var/lib/mysql \\  
-    -p 10051:10051 \\  
-    -p 80:80 \\  
-    -dt mycongrats/zabbix
+&ensp&ensp&ensp&ensp-e PHP_TZ="Asia/Shanghai" \\  
+&ensp&ensp&ensp&ensp-v /your/mysql/lib:/var/lib/mysql \\  
+&ensp&ensp&ensp&ensp-p 10051:10051 \\  
+&ensp&ensp&ensp&ensp-p 80:80 \\  
+&ensp&ensp&ensp&ensp-dt mycongrats/zabbix
 #### 登录容器
 docker exec -ti zabbix-server bash
 #### 退出容器
