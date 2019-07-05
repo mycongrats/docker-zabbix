@@ -11,6 +11,8 @@ docker run --name zabbix-server \\
 docker exec -ti zabbix-server bash
 #### 退出容器
 exit
+#### 数据库
+默认root密码为空
 #### 浏览器访问
 http://[your ip address]:80
 #### 初始用户
